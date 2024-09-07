@@ -1,9 +1,5 @@
-n = int(input("Enter an integer: "))
-n_str = str(n)
+n = (input("Enter an integer: "))
 rev = ""
-
-for i in range(len(n_str)-1, -1, -1):
-    rev += n_str[i]
-
+rev=n[::-1]
 rev_n = int(rev)
 print("Reversed number:", rev_n)
