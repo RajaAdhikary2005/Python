@@ -9,6 +9,7 @@ large= numbers[0]
 for i in range(1, n):
     if numbers[i] < small:
         small = numbers[i]
+for i in range(1, n):
     if numbers[i] > large:
         large = numbers[i]
 print("Smallest element in the list:", small)
