@@ -3,10 +3,7 @@ num2 = num
 num3 = num
 count = 0
 arm = 0
-
-while num != 0:
-    count += 1
-    num //= 10
+count=len(str(num))
 
 for i in range(0, count):
     rem = num2 % 10

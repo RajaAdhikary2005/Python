@@ -4,7 +4,7 @@ list1 = []
 for i in range(n):
     x = int(input(f"Enter element {i+1}: "))
     list1.append(x)
-
+print("List before swapping first and last elements:", list1)
 # Swapping the first and last items using a tuple
 list1[0], list1[-1] = list1[-1], list1[0]
 print("List after swapping first and last elements:", list1)

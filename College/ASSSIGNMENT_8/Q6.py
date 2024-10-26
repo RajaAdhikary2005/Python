@@ -1,12 +1,12 @@
 # Taking input for a tuple
 n = int(input("Enter the number of elements in the tuple: "))
-numbers = []
+list1 = []
 for i in range(n):
     x = int(input(f"Enter element {i+1}: "))
-    numbers.append(x)
+    list1.append(x)
 
 # Creating a tuple from the list
-tuple1 = tuple(numbers)
+tuple1 = tuple(list1)
 
 # Finding the length of the tuple
 length = len(tuple1)
